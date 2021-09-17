@@ -21,6 +21,13 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 
 }
+.container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
 nav{
   font-family: 'Bungee', cursive;
 }
