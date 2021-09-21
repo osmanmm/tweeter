@@ -8,3 +8,10 @@
     background-color: #c48704d2;
     background-image: url("/images/asfalt-dark.png");
   }
+  .my-name {
+    line-height: 0.1;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 35px;
+    color: white;
+  }
+  
