@@ -21,6 +21,13 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 
 }
+.name h2{
+  line-height: 0.1;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 22px;
+  color:rgb(85, 85, 240);
+  
+}
 .container {
   width: 90%;
   display: flex;
