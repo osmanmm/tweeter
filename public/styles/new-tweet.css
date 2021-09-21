@@ -30,3 +30,17 @@
     padding: 5px;
     color: white;
   }
+  .error-box {
+    display: none;
+    text-align: center;
+    border: 3px solid rgb(187, 38, 38);
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(187, 38, 38);
+  }
+  
+  .error-msg {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
