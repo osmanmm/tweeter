@@ -1,41 +1,40 @@
 nav {
-    display: flex;
-    position: fixed;
-    justify-content: space-between;
-    color:white;
-    height: 120px;
-    width: 100%;
-    top: 0;
-    background-color: #4056A1;
-  }
-  
-  
-  .nav-title {
-    display: flex;
-    align-items: flex-end;
-    font-family: 'Bungee';
-    padding-left: 1.5em;
-    padding-bottom: 0.5em;
-    font-size: 40px;
-  }
-  
-  .nav-phrase {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-right: 1.5em;
-  }
-  
-  .phrase {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 22px;
-  }
-  
-  .fa-angle-double-down {
-    color: rgb(187, 38, 38);
-  }
-  
-  .down-arrow {
-    display: flex;
-    justify-content: center;
-  }
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  color: white;
+  height: 120px;
+  width: 100%;
+  top: 0;
+  background-color: #4056A1;
+}
+
+.nav-title {
+  display: flex;
+  align-items: flex-end;
+  font-family: "Bungee";
+  padding-left: 1.5em;
+  padding-bottom: 0.5em;
+  font-size: 40px;
+}
+
+.nav-phrase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 1.5em;
+}
+
+.phrase {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 22px;
+}
+
+.fa-angle-double-down {
+  color: #bb2626;
+}
+
+.down-arrow {
+  display: flex;
+  justify-content: center;
+}

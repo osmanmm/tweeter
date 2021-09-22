@@ -1,0 +1,21 @@
+.page-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+    height: 400px;
+    width: 100%;
+    background-color: #c48704d2;
+    background-image: url("/images/asfalt-dark.png");
+  }
+  .my-name {
+    line-height: 0.1;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 35px;
+    color: white;
+  }
+  .profile-picture {
+    width: auto;
+    height: 200px;
+    padding-top: 10px;
+  }

@@ -15,7 +15,7 @@ article.tweet header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 22px;
 }
 
@@ -35,12 +35,12 @@ article.tweet header {
 
 .user-handle {
   font-weight: bold;
-  color: #b4b4ce;
+  color: rgb(180, 180, 206)
 }
 
 .user-content {
   padding: 20px 0px 20px 0px;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
   font-size: 18px;
 }
@@ -59,8 +59,8 @@ article.tweet footer {
 }
 
 .tweet-date {
-  font-size: 0.5em;
-  padding: 2px;
+  font-size: .5em;
+  padding: 2px
 }
 
 .footer-icons {
@@ -68,7 +68,7 @@ article.tweet footer {
 }
 
 .icon {
-  font-size: 0.75em;
+  font-size: .75em;
   padding: 5px;
   color: #3f3f85;
 }

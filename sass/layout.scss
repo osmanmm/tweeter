@@ -6,28 +6,29 @@
 html {
   box-sizing: border-box;
 }
-
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
 /* Global layout stuff */
+
 body {
   color: #545149;
   background-color: #f4f1ec;
   font-size: 24px;
-  font-family: "Source Sans Pro", sans-serif;
-}
+  font-family: 'Source Sans Pro', sans-serif;
 
+}
 /* User name display */
-.name h2 {
+.name h2{
   line-height: 0.1;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 22px;
-  color: #5555f0;
+  color:rgb(85, 85, 240);
+  
 }
-
 /* Main container */
+
 .container {
   width: 90%;
   display: flex;
@@ -35,10 +36,10 @@ body {
   align-items: center;
   padding-top: 40px;
 }
-
-nav {
-  font-family: "Bungee", cursive;
+nav{
+  font-family: 'Bungee', cursive;
 }
+
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
