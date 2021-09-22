@@ -5,15 +5,15 @@
   padding-top: 120px;
   height: 400px;
   width: 100%;
-  background-color: #c48704d2;
+  background-color: #9dd6f1d2;
   background-image: url("/images/asfalt-dark.png");
 }
 
 .my-name {
   line-height: 0.1;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 35px;
-  color: white;
+  font-size: 22px;
+  color: #34c7ec;
 }
 
 .profile-picture {

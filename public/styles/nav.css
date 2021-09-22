@@ -2,14 +2,13 @@ nav {
   display: flex;
   position: fixed;
   justify-content: space-between;
-  color: white;
+  color: #fdfdff;
   height: 120px;
   width: 100%;
   top: 0;
-  background-color: #4056A1;
+  background-color: #686af3;
 }
-
-.nav-title {
+nav .title {
   display: flex;
   align-items: flex-end;
   font-family: "Bungee";
@@ -17,24 +16,20 @@ nav {
   padding-bottom: 0.5em;
   font-size: 40px;
 }
-
-.nav-phrase {
+nav .phrase {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 22px;
+}
+nav .nav-phrase {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-right: 1.5em;
 }
-
-.phrase {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 22px;
-}
-
-.fa-angle-double-down {
+nav .fa-angle-double-down {
   color: #bb2626;
 }
-
-.down-arrow {
+nav .down-arrow {
   display: flex;
   justify-content: center;
 }
