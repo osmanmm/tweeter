@@ -7,8 +7,10 @@ This repository is the starter code for the project: Students will fork and clon
 ## Final project
   #### Main
 !["Screenshot of the home page"](https://user-images.githubusercontent.com/84829054/134258764-19c42421-9a84-49ae-9cb8-e70324088686.jpg)
-  ### Empty tweet
+  ### empty tweet
   ![empty-tweet](https://user-images.githubusercontent.com/84829054/134287717-515ecafa-f83a-4ab8-a552-6a572e227eb9.png)
+  ### error message
+  ![error-message](https://user-images.githubusercontent.com/84829054/134287902-7d24e61f-ab94-487c-a436-ca85a57312c4.png)
 
 ## Getting Started
 
