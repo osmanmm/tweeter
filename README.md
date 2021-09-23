@@ -22,7 +22,6 @@ This repository is the starter code for the project: Students will fork and clon
 ## Dependencies
 - Express
 - Node 5.10.x or above
-- Sass
-- jQuery 
-- AJAX 
+- body-parser
+- MD5 
 
