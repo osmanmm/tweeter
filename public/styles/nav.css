@@ -33,3 +33,15 @@ nav .down-arrow {
   display: flex;
   justify-content: center;
 }
+
+@keyframes updown {
+  0% {
+    transform: translateY(-20%);
+  }
+  50% {
+    transform: translateY(20%);
+  }
+  100% {
+    transform: translateY(-20%);
+  }
+}
