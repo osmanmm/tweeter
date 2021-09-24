@@ -10,8 +10,7 @@
  * Reminder: Use (and do all your DOM work in) jQuery's document ready function
  */
 
-$(document).ready(function() {
-
+$(document).ready(function () {
   const createTweetElement = (tweetObject) => {
     const $tweetArticle = $(`
   <article class="tweet">
@@ -30,7 +29,9 @@ $(document).ready(function() {
   <footer>
     <div class="footer-utility">
       <div>
-        <span class="tweet-date">${timeago.format(tweetObject.created_at)}</span>
+        <span class="tweet-date">${timeago.format(
+          tweetObject.created_at
+        )}</span>
       </div>
       <div class="footer-icons">
           <i class="fas fa-flag icon"></i>
@@ -42,26 +43,24 @@ $(document).ready(function() {
   </footer>
 </article>
     `);
-    
+
     //Adding user input text via .text to prevent XXS
     $tweetArticle.find(".user-input").text(tweetObject.content.text);
     return $tweetArticle;
   };
 
   const renderTweets = (tweetData) => {
-    tweetData.forEach(tweet => {
+    tweetData.forEach((tweet) => {
       const $newTweet = createTweetElement(tweet);
-      $('.tweet-container').prepend($newTweet);
+      $(".tweet-container").prepend($newTweet);
     });
   };
 
   const postTweet = () => {
-    $.get("/tweets", function(data, status) {
+    $.get("/tweets", function (data, status) {
       const $newTweet = createTweetElement(data[data.length - 1]);
-      $('.tweet-container').prepend($newTweet);
-      
+      $(".tweet-container").prepend($newTweet);
     });
-    
   };
 
   //Helper Functions to assist with error msg animation
@@ -74,7 +73,7 @@ $(document).ready(function() {
     $(".error-box").slideUp();
   };
 
-  $("form").submit(function(event) {
+  $("form").submit(function (event) {
     event.preventDefault();
 
     const form = $(this);
@@ -100,10 +99,9 @@ $(document).ready(function() {
     hideError();
     textArea.val("");
   });
-    
+
   //Fetches tweet data from server and renders page
   const loadTweets = () => {
-    
     $.ajax({
       url: "/tweets",
       type: "GET",
