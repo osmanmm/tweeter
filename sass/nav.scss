@@ -21,6 +21,7 @@ nav {
 .phrase {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 22px;
+  
 }
 
 .nav-phrase {
@@ -32,10 +33,17 @@ nav {
 
 .fa-angle-double-down {
   color: rgb(187, 38, 38);
+  
 }
 
 
 
+
+
+  }
+
+  .show{
+    display: none;
   }
 
   nav .down-arrow {
@@ -44,6 +52,7 @@ nav {
     animation: updown 2s ease infinite;
     animation-name: bouncing-arrow;
   animation-timing-function: ease;
+ 
   }
   @keyframes updown {
     0% {

@@ -59,7 +59,9 @@ $(document).ready(function() {
     $.get("/tweets", function(data, status) {
       const $newTweet = createTweetElement(data[data.length - 1]);
       $('.tweet-container').prepend($newTweet);
+      
     });
+    
   };
 
   //Helper Functions to assist with error msg animation
@@ -92,6 +94,7 @@ $(document).ready(function() {
       data: form.serialize(),
     }).then(() => {
       postTweet();
+      $(".counter").val(140);
     });
 
     hideError();
