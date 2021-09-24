@@ -30,6 +30,10 @@ nav .fa-angle-double-down {
   color: #bb2626;
 }
 
+.counter-color {
+  color: red;
+}
+
 .show {
   display: none;
 }
