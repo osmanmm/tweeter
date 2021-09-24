@@ -3,14 +3,18 @@
   <head>
     <!-- Meta Information -->
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
-    <title>Tweeter - Home Page</title>
-       <!-- External CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" type="text/css" />
 
-    <!-- Fonts-->
+    <title>Tweeter - Home Page</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" type="text/css" />
+    
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Source+Sans+Pro:ital,wght@0,300;0,600;1,300;1,600&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- App CSS -->
@@ -18,13 +22,14 @@
     <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
     <link rel="stylesheet" href="/styles/header.css" type="text/css" />
     <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
-    <link rel="stylesheet" href="/styles/response.css" type="text/css" />
     <link rel="stylesheet" href="/styles/tweet.css" type="text/css" />
-    
+    <link rel="stylesheet" href="/styles/response.css" type="text/css" />
+
 
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.2/timeago.min.js" integrity="sha512-SVDh1zH5N9ChofSlNAK43lcNS7lWze6DTVx1JCXH1Tmno+0/1jMpdbR8YDgDUfcUrPp1xyE53G42GFrcM0CMVg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
     <!-- Internal JS -->  
     <script src="scripts/composer-char-counter.js"></script>
     <script src ="/scripts/display-time.js"></script>
@@ -55,14 +60,15 @@
       <div>
           <img src="/images/profile-hex.png"> 
       </div>
-      
+
       <br>
-      <div class>
+      <div>
         <span class="my-name">Osman</span>
       </div>
   </header>
     <!-- Page-specific (main) content here -->
     <main class="container">
+   
       <section class="new-tweet">
         <div class="error-box">
           <i class="fas fa-exclamation-triangle error-icon"></i>
@@ -70,18 +76,19 @@
           <i class="fas fa-exclamation-triangle error-icon"></i>
         </div>
       </div>
-      <form action="/tweets" method="POST">
-        <label for="tweet-text">What are you humming about?</label>
-        <br>
-        <textarea name="text" class="tweet-text"></textarea>
-        <div class="tweet-extras">
-          <button type="submit">Tweet</button>
-          <output name="counter" class="counter" for="tweet-text">140</output>
-        </div>
-      </form>
-    </section>
+        <form action="/tweets" method="POST">
+          <label for="tweet-text">What are you humming about?</label>
+          <br>
+          <textarea name="text" class="tweet-text"></textarea>
+          <div class="tweet-extras">
+            <button type="submit">Tweet</button>
+            <output name="counter" class="counter" for="tweet-text">140</output>
+          </div>
+        </form>
+      </section>
 
-    <section class="tweet-container"></section>
-  </main>
-</body>
+      <section class="tweet-container"></section>
+
+    </main>
+  </body>
 </html>

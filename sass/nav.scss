@@ -34,11 +34,16 @@ nav {
   color: rgb(187, 38, 38);
 }
 
-.down-arrow {
-  display: flex;
-  justify-content: center;
-}
 
+
+  }
+
+  nav .down-arrow {
+    display: flex;
+    justify-content: center;
+    animation: updown 2s ease infinite;
+    animation-name: bouncing-arrow;
+  animation-timing-function: ease;
   }
   @keyframes updown {
     0% {
@@ -53,6 +58,7 @@ nav {
       transform: translateY(-20%);
     }
   }
+  
   
 
   

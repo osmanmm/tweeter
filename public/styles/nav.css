@@ -29,9 +29,13 @@ nav .nav-phrase {
 nav .fa-angle-double-down {
   color: #bb2626;
 }
+
 nav .down-arrow {
   display: flex;
   justify-content: center;
+  animation: updown 2s ease infinite;
+  animation-name: bouncing-arrow;
+  animation-timing-function: ease;
 }
 
 @keyframes updown {
